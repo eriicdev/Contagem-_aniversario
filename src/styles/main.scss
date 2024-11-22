@@ -1,6 +1,7 @@
 @use 'hero';
 @use '../styles/components/infos-bar';
 @use '../styles/components/buttons';
+@use './events';
 
 *{
     margin: 0;
@@ -24,4 +25,16 @@
     @media (max-width: 1024px){
         max-width: 80%;
     }
+}
+
+.footer{
+    background-color: #186ca7;
+    text-align: center;
+
+    &__text{
+        font-size: 18px;
+        font-weight: bold;
+        padding: 16px;
+    }
+
 }
